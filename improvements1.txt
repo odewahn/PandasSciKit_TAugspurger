@@ -1,0 +1,12 @@
+1. Importing seaborn as sns is missing (This is why Tim had trouble running it).
+2. My only suggestion would be to use .head() on the dataframes that are printed out, unless there is a particular reason to print out so much.
+
+September 14
+
+The notebook runs through nicely. I added a warnings.filter for the matplotlib font cache load user warning. We may update the container, but for now that is a simple work-around.
+
+Therefore, please use the attached version moving forward. I also fixed 3 small typos.
+
+1. The multicollinearity explanation is awesome. I vote for keeping it in there, as it is a very common mistake when creating dummy variables for linear regression. @Tim - what do you think?
+
+2. I believe the only thing left is making the two images a little smaller, as suggested by Tim in the first email.
